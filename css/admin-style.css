@@ -1,0 +1,40 @@
+/* 
+    Document   : admin-style
+    Created on : 16-Aug-2013, 12:03:29
+    Author     : Ryan Haworth
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*Post form styling*/
+.form-table label.error{
+    background-color: #fcdada;
+    border: 1px solid #fcdada;
+    color: #000000;
+    padding: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+.form-table .error{
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+ul.synth-image-radio-inline li{
+   display: inline-block; 
+   margin-right: 5px;
+}
+
+ul.synth-image-radio-inline li img{
+   cursor: pointer;
+   border: 3px solid transparent;
+}
+
+ul.synth-image-radio-inline li img.selected{
+   border: 3px solid #999999;  
+}
+
+ul.synth-image-radio-inline li input{
+   display: none;  
+}
